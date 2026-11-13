@@ -3,9 +3,10 @@ message: "If you use this package, please cite it as below."
 title: "Replication package: Continuous structural complexity of history-based parametric CAD models and its association with parametric robustness"
 type: dataset
 authors:
-  - family-names: "Puerta Vélez"
-    given-names: "Andrés Felipe"
+  - family-names: "Puerta"
+    given-names: "Andrés F."
     affiliation: "Universidad EAFIT"
+    orcid: "https://orcid.org/0009-0006-8018-0196"
   - family-names: "Hincapié Montoya"
     given-names: "Edwin Mauricio"
     affiliation: "Universidad EAFIT"
@@ -22,5 +23,6 @@ authors:
     given-names: "Pedro"
     affiliation: "Universitat Jaume I"
     orcid: "https://orcid.org/0000-0001-6399-4717"
+doi: 10.5281/zenodo.24202577
 license: CC-BY-4.0
 keywords: [parametric CAD, structural complexity, dependency graph, parametric robustness]

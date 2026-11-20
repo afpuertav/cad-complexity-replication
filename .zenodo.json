@@ -4,7 +4,7 @@
   "description": "Metrics of 351 history-based parametric CAD models extracted with QualiCAD, perceived-complexity scores (S_MAP) for 106 models, regeneration state of the models before modification, Python analysis code and results (tables, figures, sensitivity analyses and the reference transformation that defines the Structural Complexity Index, ICE). Native CAD files are not included; model identifiers are listed instead.",
   "creators": [
     {
-      "name": "Puerta, Andrés F.",
+      "name": "Puerta, Andres F.",
       "affiliation": "Universidad EAFIT",
       "orcid": "0009-0006-8018-0196"
     },

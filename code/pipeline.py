@@ -113,7 +113,7 @@ DEF = {
  "volume_ratio":          ("geometrica", "1 - (volumen de la pieza / volumen de su caja envolvente)."),
  "sphere_ratio":          ("geometrica", "1 - (volumen de la pieza / volumen de la esfera envolvente)."),
  "size":                  ("archivo", "Tamano del fichero nativo .sldprt en kilobytes; recoge de forma agregada el volumen de informacion almacenada."),
- "success_ratio":         ("calidad", "Variable objetivo de calidad. Proporcion de modificaciones dimensionales exhaustivas que el modelo regenera sin error, normalizada al incremento maximo ensayado; sigue el procedimiento del Ratio for Exhaustive Modification."),
+ "success_ratio":         ("calidad", "Variable objetivo de calidad. Proporcion de modificaciones dimensionales aleatorias simultaneas (dentro de +-1 % de los valores nominales, ajuste por defecto de QualiCAD) que el modelo regenera sin error; no reproduce el barrido exhaustivo del Ratio for Exhaustive Modification."),
 }
 TABLAS["T1_variables"] = pd.DataFrame(
     [{"variable": k, "familia": f, "definicion": d} for k, (f, d) in DEF.items()])
